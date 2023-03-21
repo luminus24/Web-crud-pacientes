@@ -1,12 +1,16 @@
 import { useState } from 'react'
-import './App.css'
+import Formulario from './components/Formulario'
+import Header from './components/header'
+import ListadoPacientes from './components/ListadoPacientes'
 
 function App() {
 
 
   return (
-    <div className="App">
-
+    <div className='container mx-auto'>
+      <Header/>
+      <Formulario/>
+      <ListadoPacientes/>
     </div>
   )
 }
